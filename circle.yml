@@ -3,4 +3,4 @@ dependencies:
     - sudo apt-get update; sudo apt-get install nmap -y
 test:
   override:
-    - nmap -sV -p 1-10000 52.29.146.126
+    - nmap -sV -p 10000-50000 52.29.146.126
