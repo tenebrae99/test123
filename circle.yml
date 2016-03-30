@@ -1,0 +1,6 @@
+dependencies:
+  pre:
+    - sudo apt-get update; sudo apt-get install nmap -y
+test:
+  override:
+    - nmap -sV -p 1-10000 52.29.146.126
