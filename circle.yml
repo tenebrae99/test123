@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - sudo apt-get update; sudo apt-get install nmap -y
+    - sudo apt-get update; sudo apt-get install nmap telnet -y
 test:
   override:
     - "echo 'cyka blyat' | telnet 52.29.146.126 443"
